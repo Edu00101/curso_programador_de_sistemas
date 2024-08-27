@@ -1,0 +1,31 @@
+<html>
+<head>
+   <title>2. Boas-vindas</title>
+
+</head>
+<body>
+  <h1>Boas-vindas</h1>
+ 
+ <p>
+  <cite>2. Solicite ao usuário que digite seu nome e depois exiba um alerta com a mensagem "Olá, [nome]!".
+  </cite>
+</p>
+<hr>
+</body>
+
+<script>
+   // Declaração de variáveis
+ var nome, tipo, mensagem;
+
+   // Processamento de dados
+ nome = window.prompt("Qual o seu nome?");
+ mensagem = "Seja bem-vindo, " + nome + "!";
+ tipo = typeof nome;
+ 
+   // Saída de dados
+ document.write(mensagem);
+ console.log(tipo);
+ window.alert(mensagem);
+
+</script>
+</html>
