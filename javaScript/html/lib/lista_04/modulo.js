@@ -9,5 +9,6 @@ function par(a){
    }
    return total;
 }
+const lib = { soma, par }
 
-module.exports = par;
+module.exports = lib;
