@@ -1,3 +1,15 @@
+function somaLista(lista){
+     let total = 0;
+     let N = lista.length;
+ 
+     for(let i=0; i<N; i++) {
+         total += lista[i];
+     }
+ return total;
+ }
+
+// ------------------------------------------------------------------------------------------------
+
 function par(a){
  
     let numero = a.filter(value => value % 2 == 0);
@@ -9,6 +21,18 @@ function par(a){
    }
    return total;
 }
-const lib = { soma, par }
+
+// ------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+const lib = { somaLista, par }
 
 module.exports = lib;
