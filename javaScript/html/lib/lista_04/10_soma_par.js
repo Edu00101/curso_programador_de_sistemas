@@ -1,13 +1,7 @@
-// function somaPar(N){
 
-//    let  total = N + N;
 
-//     // if( N === 0) return 
-//     // total;
-    
-//     for(let a=2; a<N; a++) {
-//         if(N % 2 === 0) return total;
-//     }
+ const par = require("./modulo");
 
-//     return total;
-// }
+console.log(par([1, 2, 3, 4, 5])); 
+console.log(par([2, 4, 6, 8])); 
+console.log(par([1, 3, 5, 7])); 

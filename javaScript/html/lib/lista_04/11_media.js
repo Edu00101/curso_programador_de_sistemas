@@ -1,4 +1,4 @@
-function med(N){
+function med(a){
 
     return total
 }

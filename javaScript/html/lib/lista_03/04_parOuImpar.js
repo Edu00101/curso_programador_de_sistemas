@@ -1,8 +1,16 @@
-function parOuImpar(numero) {
-	return numero % 2 ==1 ? "Impar" : "Par";
+function parImpar(a) {
+	let resposta;        // "Par" ou "Impar"
+	let resto = a % 2;
+
+    if(resto == 1){
+          resposta = "Ímpar";
+    } else {
+    	resposta = "Par";
+    }
+	return resposta;
 }
 
-console.log(numero(4));
-console.log(numero(7));
-console.log(numero(0));
-console.log(numero(-5));
+console.log(parImpar(4));
+console.log(parImpar(7));
+console.log(parImpar(0));
+console.log(parImpar(5));

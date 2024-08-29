@@ -24,14 +24,14 @@ console.log(superSplit("Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit
 
 console.log(superSplit("Linha única sem quebras", " "));
 
-console.log(superSplit("Primeira linha de um texto. Segunda linha usando template strings.Terceira linha com mais detalhes.", ". "));
+console.log(superSplit("Primeira linha de um texto. Segunda linha usando template strings. Terceira linha com mais detalhes.", ". "));
 
-console.log(superSplit("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim adminim veniam.", ". "));
+console.log(superSplit("Lorem ipsum dolor sit amet. consectetur adipiscing elit. Ut enim adminim veniam.", ". "));
 
 console.log(superSplit("Texto com linhas múltiplas e uso de templates strings paraseparação.", ". "));
 
 // =========================================================================================================================================================
-     !função!
+    //  !função!
 
 // String.prototype.split()
     
